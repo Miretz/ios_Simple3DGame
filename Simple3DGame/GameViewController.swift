@@ -37,7 +37,7 @@ class GameViewController: UIViewController, SCNSceneRendererDelegate {
     
     func initView() {
         gameView = self.view as! SCNView
-        gameView.allowsCameraControl = true
+        gameView.allowsCameraControl = false
         gameView.autoenablesDefaultLighting = true
         
         gameView.delegate = self
@@ -91,6 +91,7 @@ class GameViewController: UIViewController, SCNSceneRendererDelegate {
     func cleanup(){
         for node in gameScene.rootNode.childNodes {
             if node.presentation.position.y < -2.0 {
+                if node.name == "friend" { score -= 1 }
                 node.removeFromParentNode()
             }
         }
