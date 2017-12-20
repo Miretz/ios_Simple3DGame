@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		BDBB9D6A1FEA523600BFAE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D691FEA523600BFAE0D /* AppDelegate.swift */; };
-		BDBB9D6C1FEA523600BFAE0D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBB9D6B1FEA523600BFAE0D /* art.scnassets */; };
 		BDBB9D6E1FEA523600BFAE0D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB9D6D1FEA523600BFAE0D /* GameViewController.swift */; };
 		BDBB9D711FEA523600BFAE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBB9D6F1FEA523600BFAE0D /* Main.storyboard */; };
 		BDBB9D731FEA523600BFAE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBB9D721FEA523600BFAE0D /* Assets.xcassets */; };
 		BDBB9D761FEA523600BFAE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBB9D741FEA523600BFAE0D /* LaunchScreen.storyboard */; };
+		BDBB9D821FEA682C00BFAE0D /* OverlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BDBB9D811FEA682C00BFAE0D /* OverlayScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BDBB9D661FEA523600BFAE0D /* Simple3DGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple3DGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBB9D691FEA523600BFAE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BDBB9D6B1FEA523600BFAE0D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		BDBB9D6D1FEA523600BFAE0D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BDBB9D701FEA523600BFAE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDBB9D721FEA523600BFAE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBB9D751FEA523600BFAE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDBB9D771FEA523600BFAE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBB9D811FEA682C00BFAE0D /* OverlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OverlayScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				BDBB9D691FEA523600BFAE0D /* AppDelegate.swift */,
-				BDBB9D6B1FEA523600BFAE0D /* art.scnassets */,
 				BDBB9D6D1FEA523600BFAE0D /* GameViewController.swift */,
 				BDBB9D6F1FEA523600BFAE0D /* Main.storyboard */,
 				BDBB9D721FEA523600BFAE0D /* Assets.xcassets */,
 				BDBB9D741FEA523600BFAE0D /* LaunchScreen.storyboard */,
 				BDBB9D771FEA523600BFAE0D /* Info.plist */,
+				BDBB9D811FEA682C00BFAE0D /* OverlayScene.sks */,
 			);
 			path = Simple3DGame;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDBB9D6C1FEA523600BFAE0D /* art.scnassets in Resources */,
 				BDBB9D761FEA523600BFAE0D /* LaunchScreen.storyboard in Resources */,
 				BDBB9D731FEA523600BFAE0D /* Assets.xcassets in Resources */,
 				BDBB9D711FEA523600BFAE0D /* Main.storyboard in Resources */,
+				BDBB9D821FEA682C00BFAE0D /* OverlayScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
